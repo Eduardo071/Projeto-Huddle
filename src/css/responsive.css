@@ -1,0 +1,90 @@
+@media (max-width: 600px) {
+        .container {
+        background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') center center no-repeat;
+        background-size: cover;
+        }
+
+        .header {
+          height: 60%;
+          align-items: flex-end;
+        }
+        
+        .header .logo {
+          width: 80%;
+            justify-content: flex-end;
+
+        }
+
+        .header .logo img{
+            width: 40%;
+        }
+
+        .main {
+        grid-template-columns: 1fr;
+        }
+        
+
+        .main .illustration {
+        justify-content: center;
+        }
+
+        .main .illustration img {
+          width: 80%;
+          height: 85%;
+        }
+
+
+        .main .information {
+          display: flex;
+          flex-direction: column;
+        width: 90%;
+        text-align: center;
+        justify-self: center;
+        gap: 20px;
+        }
+        
+
+        .main .information .title {
+        font-size: 30px;
+        }
+        
+        
+        .main .information .descriprion {
+        font-size: 20px;
+        }
+        
+
+        .main .information .register {
+        font-size: 15px;
+        width: 220px;
+        height: 45px;
+        margin: 0;
+        box-shadow: none;
+        }
+
+        .footer 
+        {
+          justify-content: center;
+        }
+
+        .footer .social {
+          width: 120px;
+        }
+
+        .footer .social i {
+          font-size: 15px;
+    width: 30px;
+    height: 30px;
+        }
+}
+
+@media (min-width: 600px) and (max-width: 1440px){
+      .main .illustration img {
+        width: 80%;
+        height: 80%;
+      }
+
+      .main .information .title{
+        font-size: 40px;
+      }
+}
